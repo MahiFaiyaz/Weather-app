@@ -7,7 +7,7 @@ const WeatherEngine = ({ location }) => {
   const [query, setQuery] = useState("");
   const [error, setError] = useState(false);
   const [weather, setWeather] = useState({
-    temp: null,
+    temp: 0,
     city: null,
     country: null,
     forecast: null,

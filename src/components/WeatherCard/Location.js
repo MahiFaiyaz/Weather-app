@@ -100,7 +100,7 @@ const City = styled.h1`
   position: relative;
   cursor: pointer;
   &:hover {
-    top: -2px;
+    top: -5px;
   }
 `;
 const Country = styled.h3`
